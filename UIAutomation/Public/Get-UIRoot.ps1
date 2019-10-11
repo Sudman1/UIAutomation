@@ -10,6 +10,7 @@ Returns the root element
 #>
 function Get-UIRoot {
     [CmdletBinding()]
+    [OutputType([System.Windows.Automation.AutomationElement])]
     param()
     [System.Windows.Automation.AutomationElement]::RootElement
 }
