@@ -2,15 +2,24 @@ TOPIC
     UIAutomation
 
 SHORT DESCRIPTION
-    You should considering providing an introduction and overview of your
-    module here.
+    A simple wrapper for the UI Automation functionality exposed by the
+    System.Windows.Automation namespace.
 
 LONG DESCRIPTION
-    Discuss what the "primary" commands are in your module especially if
-    there are many commands.  Discuss how to get started using this module
-    providing examples where appropriate.
+    This module makes some simple capabilities from the Microsoft UI
+    Automation .Net library easily accessible to PowerShell users.
 
-YOUR HEADER HERE
-    About topics in PowerShell are free-form text.  Add headers to your
-    about topic as necessary.
+    All UI controls are considered AutomationElements. The top-level
+    AutomationElement is the desktop. The desktop contains windows which,
+    in turn, contain controls.
+
+    This module honors that conceptualization and provides commands to
+    get the root element (Get-UIRoot), get a list of window objects
+    (Get-Window), and get a list of a window's controls (Get-Control).
+
+    The contents of text controls, such as labels and text boxes can be
+    retrieved with the Get-UIText function and set with the Set-UIText
+    function.
+
+    Finally, to click a button, use Invoke-UIControl.
 
