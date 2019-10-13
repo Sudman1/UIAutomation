@@ -95,19 +95,19 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @("UI","Testing")
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://dev.azure.com/SudStyle/_git/UIAutomation?path=%2FLICENSE&version=GBmaster'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://dev.azure.com/SudStyle/UIAutomation'
 
         # A URL to an icon representing this module.
-        # IconUri = ''
+        IconUri = 'https://dev.azure.com/SudStyle/_apis/GraphProfile/MemberAvatars/04b25e0e-9aa7-49b1-b7f3-0dc20603ca20?overrideDisplayName=UIAutomation&size=2'
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = 'https://dev.azure.com/SudStyle/_git/UIAutomation?path=%2FCHANGELOG.md&version=GBmaster'
 
     } # End of PSData hashtable
 
